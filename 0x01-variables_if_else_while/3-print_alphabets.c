@@ -1,25 +1,27 @@
 #include <stdio.h>
 /**
- * main - print alpha in caps and low case
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char Lower = 'a';
-	char Upper = 'A';
+	char c;
 
-	while (Lower <= 'z')
-	{
-		putchar(Lower);
-		Lower++;
-	}
-	while (Upper <= 'Z')
-	{
-		Putchar(Upper);
-		upper++;
-	}
+	char d;
+
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z') {
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'd') {
+			putchar(d);
+			d++;
+		}
 	putchar('\n');
 	return (0);
 }
-
