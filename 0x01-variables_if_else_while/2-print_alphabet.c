@@ -11,6 +11,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
        	{
+		alp[i] = 'a' + i;
 		putchar(alp[i]);
 	}		
 	putchar('\n');
