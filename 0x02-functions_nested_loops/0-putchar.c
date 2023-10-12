@@ -1,9 +1,8 @@
 #include "main.h"
 
-int _putchar(char c);  
 
 /**
- * main - Entry point
+ * main - Entry point of my code
  *
  * Return: Always 0 (success)
  */
