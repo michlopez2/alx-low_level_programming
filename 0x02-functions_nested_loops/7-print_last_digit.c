@@ -8,19 +8,21 @@
  */
 int print_last_digit(int n)
 {
-int last_digit;
+    int last;
 
-if (n < 0)
-{
-last_digit = -n % 10;
-}
-else
-{
-last_digit = n % 10;
-}
+    /* Calculate the last digit */
+    last = n % 10;
 
-_putchar('0' + last_digit);
+    if (last < 0)
+    {
+        /* Make the last digit positive */
+        last = -last;
+    }
 
-return last_digit;
+    /* Print the last digit */
+    _putchar(last + '0');
+
+    /* Return the last digit */
+    return last;
 }
 
