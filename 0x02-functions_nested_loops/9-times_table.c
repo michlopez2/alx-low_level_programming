@@ -15,7 +15,7 @@ product = row * column;
 
 if (column == 0)
 {
-_putchar('0')
+_putchar('0');
 }
 else
 {
