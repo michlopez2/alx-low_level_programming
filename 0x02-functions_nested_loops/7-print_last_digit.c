@@ -23,6 +23,6 @@ last = -last;
 _putchar(last + '0');
 
 /* Return the last digit */
-return last;
+return (last);
 }
 
