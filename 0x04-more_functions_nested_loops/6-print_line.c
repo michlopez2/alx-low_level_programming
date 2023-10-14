@@ -3,6 +3,7 @@
 /**
  * print_line - Print a line of underscores in the terminal
  * @n: Number of times the character '_' should be printed
+ * Return: void
  */
 
 void print_line(int n)
@@ -14,7 +15,7 @@ _putchar('\n');
 {
 int i;
 
-for (i = 0; i < n; i++)
+for (i = 1; i < n; i++)
 {
 _putchar('_');
 }
