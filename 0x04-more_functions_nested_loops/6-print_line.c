@@ -3,7 +3,9 @@
 /**
  * print_line - prints a straight line of underscores
  * @n: the number of times the character '_' should be printed
+ * Return: void
  */
+
 void print_line(int n)
 {
     if (n <= 0)
